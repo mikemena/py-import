@@ -1,4 +1,5 @@
-# utils/__init__.py (incorrect way of importing)
-from length import get_length
-from lower import to_lower
-from upper import to_upper
+# utils/__init__.py
+from utils.lower import to_lower
+from utils.upper import to_upper
+from utils.length import get_length
+from scripts.example1 import yolo
